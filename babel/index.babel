@@ -1,0 +1,396 @@
+const sounds = [
+  {
+    keyCode: 81,
+    keyTrigger: "Q",
+    id: "Linkin_park_live",
+    url: "https://www.myinstants.com/media/sounds/crawling-in-my-memes.mp3"
+  },
+  {
+    keyCode: 87,
+    keyTrigger: "W",
+    id: "Curb",
+    url:"https://www.myinstants.com/media/sounds/curb2.mp3"
+  },
+  {
+    keyCode: 69,
+    keyTrigger: "E",
+    id: "PewDieDuck",
+    url: "https://www.myinstants.com/media/sounds/quack_-_pewdiepie-notification_sound-1641953.mp3"
+  },
+  {
+    keyCode: 65,
+    keyTrigger: "A",
+    id: "Dramatic",
+    url: "https://www.myinstants.com/media/sounds/dramatic.swf.mp3"
+  },
+  {
+    keyCode: 83,
+    keyTrigger: "S",
+    id: "Air_horn",
+    url: "https://www.myinstants.com/media/sounds/air-horn-sound.mp3"
+  },
+  {
+    keyCode: 68,
+    keyTrigger: "D",
+    id: "PewDieOMG",
+    url: "https://www.myinstants.com/media/sounds/ohmygah-deleted-pewdiepie-video.mp3"
+  },
+  {
+    keyCode: 90,
+    keyTrigger: "Z",
+    id: "Crickets",
+    url: "https://www.myinstants.com/media/sounds/crickets.swf.mp3"
+  },
+  {
+    keyCode: 88,
+    keyTrigger: "X",
+    id: "Skrattar?",
+    url: "https://www.myinstants.com/media/sounds/skrattar-du-forlorar-du-mannen.mp3"
+  },
+  {
+    keyCode: 67,
+    keyTrigger: "C",
+    id: "SpongeBob_fail",
+    url:"https://www.myinstants.com/media/sounds/spongebob-fail.mp3"
+  }
+];
+const sounds2 = [
+  {
+    keyCode: 81,
+    keyTrigger: "Q",
+    id: "Jeff",
+    url: "https://www.myinstants.com/media/sounds/ringtone_20.mp3"
+  },
+  {
+    keyCode: 87,
+    keyTrigger: "W",
+    id: "John_Cena",
+    url: "https://www.myinstants.com/media/sounds/and-his-name-is-john-cena-1.mp3"
+  },
+  {
+    keyCode: 69,
+    keyTrigger: "E",
+    id: "NANI!?",
+    url: "https://www.myinstants.com/media/sounds/nani-meme.mp3"
+  },
+  {
+    keyCode: 65,
+    keyTrigger: "A",
+    id: "NOOOO!",
+    url: "https://www.myinstants.com/media/sounds/noooooooooo.mp3"
+  },
+  {
+    keyCode: 83,
+    keyTrigger: "S",
+    id: "Warner_bros",
+    url: "https://www.myinstants.com/media/sounds/warner_bros_flute-ringtone-1447281.mp3"
+  },
+  {
+    keyCode: 68,
+    keyTrigger: "D",
+    id: "Game_of_flutes",
+    url: "https://www.myinstants.com/media/sounds/game-of-flutes.mp3"
+  },
+  {
+    keyCode: 90,
+    keyTrigger: "Z",
+    id: "Bruh",
+    url: "https://www.myinstants.com/media/sounds/movie_1.mp3"
+  },
+  {
+    keyCode: 88,
+    keyTrigger: "X",
+    id: "I_have",
+    url: "https://www.myinstants.com/media/sounds/untitled_264.mp3"
+  },
+  {
+    keyCode: 67,
+    keyTrigger: "C",
+    id: "Weed_EveryDay",
+    url:"https://www.myinstants.com/media/sounds/snoop-dogg-smoke-weed-everyday.mp3"
+  }
+];
+const sounds3 = [
+  {
+    keyCode: 81,
+    keyTrigger: "Q",
+    id: "Legitness",
+    url: "https://www.myinstants.com/media/sounds/wjkldksdjlvjk-twbho-lagnkdd.mp3"
+  },
+  {
+    keyCode: 87,
+    keyTrigger: "W",
+    id: "How_dare_they!?",
+    url:"https://www.myinstants.com/media/sounds/when-they-ask.mp3"
+  },
+  {
+    keyCode: 69,
+    keyTrigger: "E",
+    id: "FrishUvhagoDoo",
+    url: "https://www.myinstants.com/media/sounds/tmp_1932-fre-sha-voca-do-509369001.mp3"
+  },
+  {
+    keyCode: 65,
+    keyTrigger: "A",
+    id: "To_be_continued",
+    url: "https://www.myinstants.com/media/sounds/untitled_1071.mp3"
+  },
+  {
+    keyCode: 83,
+    keyTrigger: "S",
+    id: "Toby_nailled_it_this_time",
+    url: "https://www.myinstants.com/media/sounds/nogod.mp3"
+  },
+  {
+    keyCode: 68,
+    keyTrigger: "D",
+    id: "Little_Einsteins",
+    url: "https://www.myinstants.com/media/sounds/einsteinmed.mp3"
+  },
+  {
+    keyCode: 90,
+    keyTrigger: "Z",
+    id: "McLMAO",
+    url: "https://www.myinstants.com/media/sounds/oh-ive-mcfallen.mp3"
+  },
+  {
+    keyCode: 88,
+    keyTrigger: "X",
+    id: "What's_up_with_that_dude?",
+    url: "https://www.myinstants.com/media/sounds/bruh_look_at_this_dude1.mp3"
+  },
+  {
+    keyCode: 67,
+    keyTrigger: "C",
+    id: "Oh_you!",
+    url:"https://www.myinstants.com/media/sounds/ffff_1.mp3"
+  }
+];
+const sounds4 = [
+  {
+    keyCode: 81,
+    keyTrigger: "Q",
+    id: "run",
+    url: "https://www.myinstants.com/media/sounds/awolnation-run.mp3"
+  },
+  {
+    keyCode: 87,
+    keyTrigger: "W",
+    id: "VSauce",
+    url:"https://www.myinstants.com/media/sounds/hey_vsauce_michael.mp3"
+  },
+  {
+    keyCode: 69,
+    keyTrigger: "E",
+    id: "Law&Order",
+    url: "https://www.myinstants.com/media/sounds/dun-dun.mp3"
+  },
+  {
+    keyCode: 65,
+    keyTrigger: "A",
+    id: "Take_on_me",
+    url: "https://www.myinstants.com/media/sounds/girl-with.mp3"
+  },
+  {
+    keyCode: 83,
+    keyTrigger: "S",
+    id: "Spagett",
+    url: "https://www.myinstants.com/media/sounds/somebody_toucha_my_spaghett_full_episode-gt6clln539o-1.mp3"
+  },
+  {
+    keyCode: 68,
+    keyTrigger: "D",
+    id: "Bass",
+    url: "https://www.myinstants.com/media/sounds/bass-boost.mp3"
+  },
+  {
+    keyCode: 90,
+    keyTrigger: "Z",
+    id: "God_Damnn!",
+    url: "https://www.myinstants.com/media/sounds/god-damn_NDnVMSy.mp3"
+  },
+  {
+    keyCode: 88,
+    keyTrigger: "X",
+    id: "Just_get_it_together!",
+    url: "https://www.myinstants.com/media/sounds/getyourshit_full_lowquality.mp3"
+  },
+  {
+    keyCode: 67,
+    keyTrigger: "C",
+    id: "Evil",
+    url:"https://www.myinstants.com/media/sounds/audio-cortado-2.mp3"
+  }
+];
+const clicked ={'background':" radial-gradient(pink,#99ff99,#33ccff)"};
+const unClicked ={'backgroundColor':""};
+class Pad extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      padColor:unClicked
+    };
+    this.playSound = this.playSound.bind(this);
+    this.handleKeyPress=this.handleKeyPress.bind(this)
+  }
+  componentDidMount() {
+    document.addEventListener("keydown", this.handleKeyPress);
+  }
+  componentWillUnmount() {
+    document.removeEventListener("keydown", this.handleKeyPress);
+  } 
+    handleKeyPress(e) {
+    if (e.keyCode === this.props.keyCode) {
+      this.playSound();
+    }
+  }
+  playSound() {
+    const audio = new Audio(this.props.clip);
+ if(this.props.gameStatus == "On"){   audio.play();
+this.props.soundsName(this.props.clipId.replace(/_/g, ' '));
+    audio.volume=this.props.volume;
+    
+    this.setState({padColor:clicked});
+setTimeout(()=>this.setState({padColor:unClicked}),500);}
+
+  }
+  render() {                                                                
+    return (
+        <div onClick={this.playSound} id={this.props.clipId} className={"drum-pad"} style={this.props.padDesign} >{this.props.keyTrigger}
+         <div id="nameWrap" style={this.state.padColor} ></div>
+          <audio
+            className="clip"
+            id={this.props.keyTrigger}
+            src={this.props.clip}
+            type="audio/mpeg"/>       
+
+
+        </div>
+    );
+  }
+}
+class PadGroup extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+  render() {
+    let padGroup;
+    this.props.gameStatus == "On" ? padGroup = this.props.currentPadBank.map((obj, i, arr) => {
+      return (
+        <Pad key={i}
+          clipId={arr[i].id}
+          clip={arr[i].url}
+          keyTrigger={arr[i].keyTrigger}
+          keyCode={arr[i].keyCode}
+          soundsName={this.props.soundName}
+          volume={this.props.volume}
+          padDesign={this.props.padDesign}
+          gameStatus={this.props.gameStatus}
+        />
+      );
+    }):    padGroup = this.props.currentPadBank.map((obj, i, arr) => {
+      return (
+        <Pad key={i}
+          clipId={arr[i].id}
+          clip={'#'}
+          keyTrigger={arr[i].keyTrigger}
+          keyCode={arr[i].keyCode}
+          soundsName = {this.props.soundName}
+          volume={this.props.volume}
+          padDesign={this.props.padDesign}
+          gameStatus={this.props.gameStatus}
+        />
+      );
+    })
+    return <div id="padGroup">{padGroup}</div>;
+  }
+}
+const bank1 ={'background':'linear-gradient(to right,#ffffb3 0%,  #99ff99 200%)'};
+const bank2 ={'background':"linear-gradient(to top,#cce6ff 0%, #ffccb3 100%)"};
+const bank3 ={'background':"linear-gradient(to left,#b3b3ff 0%, white 100%)"};
+const bank4 ={'background':"linear-gradient(to bottom,#ffb3d1 0%, #c2f0f0 100%)"};
+const padOff={'backgroundColor':"grey"};
+class DrumMachine extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      currentPadBank: sounds,
+      gameStatus:'On',
+      soundName:'',
+      volume:0.1,
+      padDesign:bank1,
+      baseTrack:false,
+      powerIcon:"fa fa-toggle-on fa-4x",
+      bankStyle:"bank1"
+    };
+    this.gameStatus = this.gameStatus.bind(this);
+    this.fetchSoundName=this.fetchSoundName.bind(this);
+    this.soundBankManager=this.soundBankManager.bind(this);
+    this.setVolume = this.setVolume.bind(this);
+  }
+gameStatus(){
+    (this.state.gameStatus == "Off" ?this.setState({gameStatus:'On',powerIcon:"fa fa-toggle-on fa-4x",currentPadBank: sounds,padDesign:bank1,bankStyle:"bank1"}) :this.setState({gameStatus:'Off',soundName:"",powerIcon:"fa fa-toggle-off fa-4x",padDesign:padOff,bankStyle:""}));
+
+  }
+fetchSoundName(name) {
+    if (this.state.gameStatus == 'On') {
+      this.setState({
+        soundName: name
+      });
+    }
+  }
+  soundBankManager(e){
+    if( this.state.gameStatus =="On"){
+     switch (e.target.value){
+       case "1" : return this.setState({currentPadBank:sounds,soundName:"Set # 1",padDesign:bank1,bankStyle:"bank1"});
+       case "2": return this.setState({currentPadBank:sounds2,soundName:"Set # 2",padDesign:bank2,bankStyle:"bank2"});
+       case "3":return this.setState({currentPadBank:sounds3,soundName:"Set # 3",padDesign:bank3,bankStyle:"bank3"});
+       case "4": return this.setState({currentPadBank:sounds4,soundName:"Set # 4",padDesign:bank4,bankStyle:"bank4"});
+       default: return this.setState({currentPadBank:sounds,soundName:"Set # 1",padDesign:bank1});
+     }
+       }
+  }
+  setVolume(e){
+       if (this.state.gameStatus == "On") {
+      this.setState({
+        volume: e.target.value,
+        soundName: "Volume: " + Math.round(e.target.value * 100)
+      });
+          setTimeout(() => this.setState({soundName:''}), 1000);
+    }
+  }
+  render() {
+        var className1 = this.state.bankStyle=="bank1" ? 'bank1' : '';
+        var className2 = this.state.bankStyle=="bank2" ? 'bank2' : '';
+        var className3 = this.state.bankStyle=="bank3" ? 'bank3' : '';
+        var className4 = this.state.bankStyle=="bank4" ? 'bank4' : '';
+    return (
+      <div>
+      <div id="drum-machine">
+        <PadGroup
+          currentPadBank={this.state.currentPadBank}
+          gameStatus={this.state.gameStatus}
+          soundName={this.fetchSoundName}
+          volume={this.state.volume}
+          padDesign={this.state.padDesign}
+        />
+        <div id="controls">
+        <h2 id="header"><li className="fa fa-free-code-camp fa-1x"></li> Meme Pad</h2>
+        <div>
+        <input id="one" type='button' onClick={this.soundBankManager} value="1"  className={className1}></input>
+        <input id="two" type='button' onClick={this.soundBankManager} value="2"  className={className2}></input>
+        <input id="three" type='button' onClick={this.soundBankManager} value="3"  className={className3}></input>
+        <input id="four" type='button' onClick={this.soundBankManager} value="4"   className={className4}></input>
+        </div>
+        <p id="display" title="DISPLAY">{this.state.soundName}</p>
+        <input type="range" type="range" min="0" max="1" step="0.01" value={this.state.volume} onChange={this.setVolume} title="VOLUME"/>
+        <i onClick={this.gameStatus} className={this.state.powerIcon} title="POWER"></i>
+        </div>
+      </div>
+      <footer>Coded by Victor Cojocaru. 2018<br/>sounds source www.myinstants.com</footer>
+        </div>
+    );
+  }
+}
+ReactDOM.render(<DrumMachine />, document.getElementById("app"));

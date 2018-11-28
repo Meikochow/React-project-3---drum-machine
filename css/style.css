@@ -1,0 +1,228 @@
+body {
+  text-align: center;
+  background-image: url("https://s20.postimg.cc/v7ev7xevh/basic_background_50.png");
+}
+
+#drum-machine {
+  background-color: #001a00;
+  border: 3px double black;
+  width: 650px;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 450px;
+  grid-template-columns: 450px 150px;
+}
+
+.drum-pad {
+  width: 144px;
+  height: 144px;
+  margin: 2px;
+  box-shadow: 4px 4px gray;
+  font-size: 30px;
+}
+
+#nameWrap {
+  height: 90px;
+  width: 90px;
+  margin: auto;
+  border-radius: 50%;
+  font-size: 12px;
+  text-align: center;
+}
+
+#padGroup {
+  height: 450px;
+  width: 450px;
+  padding: 0px;
+  background-color: #001a00;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 150px 150px 150px;
+  grid-template-columns: 150px 150px 150px;
+  grid-gap: 1px;
+}
+
+#header {
+  color: white;
+}
+
+.fa-free-code-camp {
+  color: #339933;
+}
+
+.fa-toggle-off, .fa-toggle-on {
+  color: white;
+}
+
+#one, #two, #three, #four {
+  font-size: 30px;
+}
+
+.bank1 {
+  background: #99ff99;
+}
+
+.bank2 {
+  background: #ffccb3;
+}
+
+.bank3 {
+  background: #b3b3ff;
+}
+
+.bank4 {
+  background: #ffb3d1;
+}
+
+#controls {
+  display: grid;
+  grid-template-rows: 80px 80px 80px 80px 80px;
+  grid-template-columns: 180px;
+  align-items: center;
+  justify-items: center;
+  width: 180px;
+  margin-left: 10px;
+}
+
+#display {
+  background: #ccffcc;
+  height: 26px;
+  width: 174px;
+  text-align: center;
+  font-size: 22px;
+}
+
+button {
+  border: 4px solid black;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  display: block;
+  width: 180px;
+  height: 40px;
+  font-size: 30px;
+}
+
+input {
+  border: 2px solid black;
+}
+
+footer {
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  #drum-machine {
+    border: 3px double black;
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 280px;
+    grid-template-columns: 306px 100px;
+  }
+
+  #padGroup {
+    border: 1px solid black;
+    height: 200px;
+    width: 310px;
+    padding: 1px;
+    background-color: #001a00;
+    text-align: center;
+    display: grid;
+    font-size: 10px;
+    grid-template-rows: 66px 66px 66px;
+    grid-template-columns: 106px 106px 106px;
+    grid-gap: 1px;
+  }
+
+  .drum-pad {
+    width: 100px;
+    height: 60px;
+    margin: 1px;
+    display: inline-block;
+    box-shadow: -3px 3px gray;
+    font-size: 20px;
+  }
+
+  #nameWrap {
+    height: 30px;
+    width: 35px;
+    font-size: 8px;
+  }
+
+  #controls {
+    width: 180px;
+    height: 280px;
+    display: grid;
+    grid-template-rows: 40px 40px 50px 20px 44px;
+    grid-template-columns: 186px;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding-top: 0px;
+  }
+
+  button {
+    font-size: 20px;
+    height: 30px;
+    width: 150px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #drum-machine {
+    border: 3px double black;
+    width: 258px;
+    height: 450px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 280px 100px;
+    grid-template-columns: 300px;
+  }
+
+  #padGroup {
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    padding: 1px;
+    background-color: #001a00;
+    text-align: center;
+    font-size: 10px;
+    grid-template-rows: 86px 86px 86px;
+    grid-template-columns: 86px 86px 86px;
+    grid-gap: 1px;
+  }
+
+  .drum-pad {
+    width: 80px;
+    height: 80px;
+    margin: 1px;
+    display: inline-block;
+    box-shadow: -3px 3px gray;
+  }
+
+  #nameWrap {
+    height: 50px;
+    width: 45px;
+  }
+
+  #controls {
+    width: 230px;
+    height: 188px;
+    display: grid;
+    grid-template-rows: 50px 20px 50px 18px 20px;
+    grid-template-columns: 230px;
+    align-items: start;
+    justify-items: center;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: -30px;
+  }
+
+  .fa-arrow-right, .fa-arrow-up, .fa-arrow-left, .fa-arrow-down {
+    font-size: 50px;
+  }
+
+  button {
+    font-size: 20px;
+    height: 30px;
+  }
+}
